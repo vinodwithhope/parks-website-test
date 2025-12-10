@@ -1,8 +1,8 @@
 # This configuration is for the challenge worker deployment
-name = "challenge-page-worker"
+name = "parks-website-test"
 main = "challenge.js"
 compatibility_date = "2024-01-01"
-account_id = "PASTE_YOUR_32_CHARACTER_ACCOUNT_ID_HERE"
+account_id = "0172371f91c3a56f2ee9cb7c2efcb285"
 
 # You will use the same file for the turnstile worker deployment, 
 # but you will change the 'name' and 'main' fields before deploying 
