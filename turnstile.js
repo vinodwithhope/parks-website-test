@@ -28,10 +28,19 @@ const turnstileHtml = `
 </html>
 `;
 
-addEventListener('fetch', event => {
-    event.respondWith(new Response(turnstileHtml, {
+// NEW ES MODULE SYNTAX STARTS HERE
+// This function handles the request and returns the HTML
+async function handleRequest(request) {
+    return new Response(turnstileHtml, {
         headers: {
             'Content-Type': 'text/html'
         }
-    }));
-});
+    });
+}
+
+// Export the default object that contains the fetch handler
+export default {
+    async fetch(request, env, ctx) {
+        return handleRequest(request);
+    },
+};
