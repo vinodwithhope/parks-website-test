@@ -1,0 +1,9 @@
+# This configuration is for the challenge worker deployment
+name = "challenge-page-worker"
+main = "challenge.js"
+compatibility_date = "2024-01-01"
+account_id = "PASTE_YOUR_32_CHARACTER_ACCOUNT_ID_HERE"
+
+# You will use the same file for the turnstile worker deployment, 
+# but you will change the 'name' and 'main' fields before deploying 
+# the second project in Cloudflare Pages.
