@@ -8,9 +8,9 @@ const challengeHtml = `
 </head>
 <body style="font-family: Georgia, serif; background-color: #fff0f0; text-align: left; padding: 20px;">
     
-    <main style="max-width: 600px; margin: 40px auto; padding: 30px; border: 2px solid #ff4500; background-color: #ffffff; border-radius: 8px;">
+    <main style="max-width: 600px; margin: 40px auto; padding: 30px; border: 2px solid ##001aff; background-color: #ffffff; border-radius: 8px;">
         
-        <h2 style="color: #ff4500; border-bottom: 2px solid #ff4500; padding-bottom: 10px;">Security Check Passed</h2>
+        <h2 style="color: #ff4500; border-bottom: 2px solid #ff4500; padding-bottom: 10px;">Challenge Security Check Passed</h2>
         
         <p style="font-size: 1.1em; margin-bottom: 30px;">
             The automated challenge to protect our site's resources has been successfully completed.
