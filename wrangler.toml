@@ -1,5 +1,5 @@
 # This configuration is for the challenge worker deployment
-name = "parks-website-test"
+name = "turnstile-website-test"
 main = "challenge.js"
 compatibility_date = "2024-01-01"
 account_id = "0172371f91c3a56f2ee9cb7c2efcb285"
